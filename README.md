@@ -1,6 +1,6 @@
 # HostileSubBruteForcer
 Agenda: Bruteforce subdomains for subdomains takeover and enumerate the service pointing to
-Inspired by [@Nahamsec/HostileSubBruteForcer]((https://github.com/nahamsec/HostileSubBruteforcer))
+Inspired by: [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer)
 
 The original script has only five services to check for. I added twenty-one more services that can be tested!
 
