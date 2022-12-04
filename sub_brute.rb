@@ -63,7 +63,7 @@ def host(get_host) #get cname data and check response code for 404 and alert use
     campaignMonitor_error = "Trying to access your account?".red.bold
     digitalOcean_error = "Domain uses DO name servers with no records in DO.".red.bold
     gemfury_error = "404: This page could not be found.".red.bold
-    ghost_erro r= "The thing you were looking for is no longer here, or never was".red.bold
+    ghost_error= "The thing you were looking for is no longer here, or never was".red.bold
     hatenaBlog_error = "404 Blog is not found".red.bold
     helpjuice_error = "We could not find what you're looking for.".red.bold
     helpScout_error = "No settings were found for this company:".red.bold
