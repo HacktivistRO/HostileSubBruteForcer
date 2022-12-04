@@ -1,7 +1,5 @@
 # HostileSubBruteForcer
-Agenda: Bruteforce subdomains for subdomains takeover and enumerate the service pointing to
-
-Inspired by: 
+Agenda: Bruteforce subdomains for subdomains takeover and enumerate the service pointing to. 
 
 The original script [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer) had only five services to check for. I added twenty-one more services that can be tested!
 
@@ -25,3 +23,7 @@ To use another wordlist:
     Now move "list.txt" to your HostileSubBruteForcer folder and replace it with the existing file.
     
 Documentation for the script can be found here: [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer)
+
+Credits:
+[@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer) for writing an amazing script.
+[@EdOverflow/can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) for centralized repository of error messages
