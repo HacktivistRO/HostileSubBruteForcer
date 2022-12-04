@@ -13,7 +13,7 @@ Installation and Usage
     cd HostileSubBruteForcer
     ruby sub_brute.rb
     
-##TIP: For multi-threaded brute-forcing:
+### TIP: For multi-threaded brute-forcing:
     
     ruby sub_brute.rb --fast 
     
