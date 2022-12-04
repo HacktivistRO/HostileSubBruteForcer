@@ -204,7 +204,7 @@ end
 
 
 def createURI(getURI)
-  File.open("subdomains.txt", "r") do |f|
+  File.open("list.txt", "r") do |f|
     f.each_line do |line|
       targetURI = line.chomp + "." + getURI
       find_subs targetURI
@@ -215,7 +215,7 @@ end
 def createURIThreaded(getURI)
   total_threads = 100 #safe value
   queue = Queue.new 
-  File.open("subdomains.txt", "r") do |f|
+  File.open("list.txt", "r") do |f|
     f.each_line do |line|
       targetURI = line.chomp + "." + getURI
       queue << targetURI
