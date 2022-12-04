@@ -12,11 +12,13 @@ Installation and Usage:
     cd HostileSubBruteForcer
     ruby sub_brute.rb
     
+TIP: use "ruby sub_brute.rb --fast" for multi-threaded brute-forcing. 
+
 To use another wordlist:
     
     git clone https://github.com/HacktivistRO/Bug-Bounty-Wordlists/
     cd Bug-Bounty-Wordlists/
     cat subdomains-1.txt subdomains-2.txt subdomains-3.txt > list.txt
-    Now move "list.txt" to your HostileSubBruteForcer domain and replace it with the existing file.
+    Now move "list.txt" to your HostileSubBruteForcer folder and replace it with the existing file.
     
 Documentation for the script can be found here: [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer)
