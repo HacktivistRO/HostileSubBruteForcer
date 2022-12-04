@@ -10,16 +10,10 @@ require 'timeout'
 =begin
 ###############################################
 Pure subdomain bruteforcer:
-Will check and see if host is pointing to AWS
-Alrets if a subdomain returns 404 so you can
-manually check and see if it's hosted on a
-3rd party website and if they are registered
-properly or not.
-
-Author : Behrouz Sadeghipour
-Email  : bensadeghi@gmail.chom
-Twitter: @NahamSec
-http:://github.com/nahamsec
+Original Author : Behrouz Sadeghipour
+Co-Author: Rohan M.
+Email  : hacktivist.ro@gmail.chom
+http:://github.com/HacktivistRO
 ###############################################
 =end
 
