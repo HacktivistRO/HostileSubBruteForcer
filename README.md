@@ -6,4 +6,10 @@ The original script has only five services to check for. I added twenty-one more
 
 I will strongly recommend using my subdomain enumeratiion wordlist for extensive testing of subdomain takeover. My wordlist can be found here: [@HacktivistRO/Wordlists](https://github.com/HacktivistRO/Bug-Bounty-Wordlists)
 
+Installation and Usage:
+    
+    git clone https://github.com/HacktivistRO/HostileSubBruteForcer
+    cd HostileSubBruteForcer
+    ruby sub_brute.rb
+    
 Documentation for the script can be found here: [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer)
