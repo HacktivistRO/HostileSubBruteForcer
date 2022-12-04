@@ -1,10 +1,9 @@
 # HostileSubBruteForcer
 Agenda: Bruteforce subdomains for subdomains takeover and enumerate the service pointing to
-Inspired by: [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer)
 
-The original script has only five services to check for. I added twenty-one more services that can be tested!
+Inspired by: 
 
-I will strongly recommend using my subdomain enumeratiion wordlist for extensive testing of subdomain takeover. My wordlist can be found here: [@HacktivistRO/Wordlists](https://github.com/HacktivistRO/Bug-Bounty-Wordlists)
+The original script [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer) had only five services to check for. I added twenty-one more services that can be tested!
 
 Installation and Usage:
     
@@ -15,6 +14,8 @@ Installation and Usage:
 TIP: For multi-threaded brute-forcing:
     
     ruby sub_brute.rb --fast 
+    
+I will strongly recommend using my subdomain enumeratiion wordlist for extensive testing of subdomain takeover. My wordlist can be found here: [@HacktivistRO/Wordlists](https://github.com/HacktivistRO/Bug-Bounty-Wordlists)
 
 To use another wordlist:
     
