@@ -97,65 +97,65 @@ def host(get_host) #get cname data and check response code for 404 and alert use
       elsif (check_it.index("You're Almost There"))
         puts "- Subdomain pointing to a non-existing SquareSpace account showing: ".red + squarespace_error
       elsif (check_it.index("There isn't a GitHub Pages site here"))
-        puts "- Subdomain pointing to a non-existing Github subdomain indicating".red + github_error
+        puts "- Subdomain pointing to a non-existing Github subdomain indicating: ".red + github_error
       elsif (check_it.index("Sorry, this shop is currently unavailable."))
-        puts "- Subdomain pointing to a non-existing Shopify subdomain indicating".red + shopify_error
+        puts "- Subdomain pointing to a non-existing Shopify subdomain indicating: ".red + shopify_error
       elsif (check_it.index("There's nothing here."))
-        puts "- Subdomain pointing to a non-existing Tumblr subdomain indicating".red + tumblr_error
+        puts "- Subdomain pointing to a non-existing Tumblr subdomain indicating: ".red + tumblr_error
       elsif  (check_it.index("The site you were looking for couldn't be found."))
-        puts "- Subdomain pointing to a non-existing WPEngine subdomain indicating".red + wpengine_error
+        puts "- Subdomain pointing to a non-existing WPEngine subdomain indicating: ".red + wpengine_error
       elsif  (check_it.index("Sorry, this page is no longer available."))
-        puts "- Subdomain pointing to a non-existing AgileCRM subdomain indicating".red + agilecrm_error
+        puts "- Subdomain pointing to a non-existing AgileCRM subdomain indicating: ".red + agilecrm_error
       elsif  (check_it.index("404 Not Found"))
-        puts "- Subdomain pointing to a non-existing subdomain indicating".red + fourzerofour_error
+        puts "- Subdomain pointing to a non-existing subdomain indicating ".red + fourzerofour_error
       elsif  (check_it.index("Repository not found"))
-        puts "- Subdomain pointing to a non-existing BitBucket subdomain indicating".red + bitbucket_error
+        puts "- Subdomain pointing to a non-existing BitBucket subdomain indicating: ".red + bitbucket_error
       elsif  (check_it.index("Trying to access your account?"))
-        puts "- Subdomain pointing to a non-existing Campaign Monitor subdomain indicating".red + campaignMonitor_error
+        puts "- Subdomain pointing to a non-existing Campaign Monitor subdomain indicating: ".red + campaignMonitor_error
       elsif  (check_it.index("Domain uses DO name servers with no records in DO."))
-        puts "- Subdomain pointing to a non-existing Digital Ocean subdomain indicating".red + digitalOcean_error
+        puts "- Subdomain pointing to a non-existing Digital Ocean subdomain indicating: ".red + digitalOcean_error
       elsif  (check_it.index("404: This page could not be found."))
-        puts "- Subdomain pointing to a non-existing Gemfury subdomain indicating".red + gemfury_error
+        puts "- Subdomain pointing to a non-existing Gemfury subdomain indicating: ".red + gemfury_error
       elsif  (check_it.index("The thing you were looking for is no longer here, or never was"))
-        puts "- Subdomain pointing to a non-existing Ghost subdomain indicating".red + ghost_error
+        puts "- Subdomain pointing to a non-existing Ghost subdomain indicating: ".red + ghost_error
       elsif  (check_it.index("404 Blog is not found"))
-        puts "- Subdomain pointing to a non-existing Hatena Blog subdomain indicating".red + hatenaBlog_error
+        puts "- Subdomain pointing to a non-existing Hatena Blog subdomain indicating: ".red + hatenaBlog_error
       elsif  (check_it.index("We could not find what you're looking for."))
-        puts "- Subdomain pointing to a non-existing Help Juice subdomain indicating".red + helpjuice_error
+        puts "- Subdomain pointing to a non-existing Help Juice subdomain indicating: ".red + helpjuice_error
       elsif  (check_it.index("No settings were found for this company:"))
-        puts "- Subdomain pointing to a non-existing Help Scout subdomain indicating".red + helpScout_error
+        puts "- Subdomain pointing to a non-existing Help Scout subdomain indicating: ".red + helpScout_error
       elsif  (check_it.index("Uh oh. That page doesn't exist."))
-        puts "- Subdomain pointing to a non-existing Intercom subdomain indicating".red + intercom_error
+        puts "- Subdomain pointing to a non-existing Intercom subdomain indicating: ".red + intercom_error
       elsif  (check_it.index("is not a registered InCloud YouTrack"))
-        puts "- Subdomain pointing to a non-existing JetBrains subdomain indicating".red + jetBrains_error
+        puts "- Subdomain pointing to a non-existing JetBrains subdomain indicating: ".red + jetBrains_error
       elsif  (check_it.index("No Site For Domain"))
-        puts "- Subdomain pointing to a non-existing Kinsta subdomain indicating".red + kinsta_error
+        puts "- Subdomain pointing to a non-existing Kinsta subdomain indicating: ".red + kinsta_error
       elsif  (check_it.index("It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us."))
-        puts "- Subdomain pointing to a non-existing LaunchRock subdomain indicating".red + launchRock_error
+        puts "- Subdomain pointing to a non-existing LaunchRock subdomain indicating: ".red + launchRock_error
       elsif  (check_it.index("Tunnel *.ngrok.io not found"))
-        puts "- Subdomain pointing to a non-existing Ngrok subdomain indicating".red + ngrock_error
+        puts "- Subdomain pointing to a non-existing Ngrok subdomain indicating: ".red + ngrock_error
       elsif  (check_it.index("404 error unknown site!"))
-        puts "- Subdomain pointing to a non-existing Pantheon subdomain indicating".red + pantheon_error
+        puts "- Subdomain pointing to a non-existing Pantheon subdomain indicating: ".red + pantheon_error
       elsif  (check_it.index("Sorry, couldn't find the status page"))
-        puts "- Subdomain pointing to a non-existing Pingdom subdomain indicating".red + pingdom_error
+        puts "- Subdomain pointing to a non-existing Pingdom subdomain indicating: ".red + pingdom_error
       elsif  (check_it.index("Project doesnt exist... yet!"))
-        puts "- Subdomain pointing to a non-existing Readme.io subdomain indicating".red + readme_error
+        puts "- Subdomain pointing to a non-existing Readme.io subdomain indicating: ".red + readme_error
       elsif  (check_it.index("Link does not exist"))
-        puts "- Subdomain pointing to a non-existing Short.io subdomain indicating".red + shortio_error
+        puts "- Subdomain pointing to a non-existing Short.io subdomain indicating: ".red + shortio_error
       elsif  (check_it.index("This job board website is either expired or its domain name is invalid."))
-        puts "- Subdomain pointing to a non-existing SmartJobBoard subdomain indicating".red + smartJobBoard_error
+        puts "- Subdomain pointing to a non-existing SmartJobBoard subdomain indicating: ".red + smartJobBoard_error
       elsif  (check_it.index("page not found"))
-        puts "- Subdomain pointing to a non-existing subdomain indicating".red + pageNotFound_error
+        puts "- Subdomain pointing to a non-existing subdomain indicating: ".red + pageNotFound_error
       elsif  (check_it.index("project not found"))
-        puts "- Subdomain pointing to a non-existing Surge.sh subdomain indicating".red + surgesh_error
+        puts "- Subdomain pointing to a non-existing Surge.sh subdomain indicating: ".red + surgesh_error
       elsif  (check_it.index("'Ouch! Account not found'"))
-        puts "- Subdomain pointing to a non-existing SurveySparrow subdomain indicating".red + surveySparrow_error
+        puts "- Subdomain pointing to a non-existing SurveySparrow subdomain indicating: ".red + surveySparrow_error
       elsif  (check_it.index("Non-hub domain, The URL you've accessed does not provide a hub."))
-        puts "- Subdomain pointing to a non-existing Uberflip subdomain indicating".red + uberFlip_error
+        puts "- Subdomain pointing to a non-existing Uberflip subdomain indicating: ".red + uberFlip_error
       elsif  (check_it.index("Do you want to register *.wordpress.com?"))
-        puts "- Subdomain pointing to a non-existing Wordpress subdomain indicating".red + wordpress_engine
+        puts "- Subdomain pointing to a non-existing Wordpress subdomain indicating: ".red + wordpress_engine
        elsif  (check_it.index("Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.  "))
-        puts "- Subdomain pointing to a non-existing Wordsites subdomain indicating".red + worksites_error
+        puts "- Subdomain pointing to a non-existing Wordsites subdomain indicating: ".red + worksites_error
       end
       #if (real_host = get_host)
       #else
