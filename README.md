@@ -1,18 +1,19 @@
 # HostileSubBruteForcer
 
-Agenda
+Agenda and Updates
 ----------
 Bruteforce subdomains for subdomains takeover and enumerate the service pointing to. 
 
 The original script [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer) had only five services to check for. I added twenty-one more services that can be tested!
 
-Installation and Usage:
+Installation and Usage
+----------
     
     git clone https://github.com/HacktivistRO/HostileSubBruteForcer
     cd HostileSubBruteForcer
     ruby sub_brute.rb
     
-TIP: For multi-threaded brute-forcing:
+##TIP: For multi-threaded brute-forcing:
     
     ruby sub_brute.rb --fast 
     
@@ -30,4 +31,5 @@ Documentation for the script can be found here: [@Nahamsec/HostileSubBruteForcer
 Credits
 ----------
 [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer) for writing an amazing script.
+
 [@EdOverflow/can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) for centralized repository of error messages
