@@ -4,7 +4,7 @@ Agenda and Updates
 ----------
 Bruteforce subdomains for subdomains takeover and enumerate the service pointing to. 
 
-The original script [@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer) had the five most popular services to check for. I added twenty-one more services to be tested!
+The original script ([@Nahamsec/HostileSubBruteForcer](https://github.com/nahamsec/HostileSubBruteforcer)) had the five most popular services to check for. I added twenty-one more services to be tested!
 
 Installation and Usage
 ----------
