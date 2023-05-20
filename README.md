@@ -1,5 +1,7 @@
 # HostileSubBruteForcer
 
+![](https://komarev.com/ghpvc/?username=HacktivistRO&style=for-the-badge)
+
 Agenda and Updates
 ----------
 Bruteforce subdomains for subdomains takeover and enumerate the service pointing to. 
